@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FF Headshot VIP - File Regedit & Macro Free Fire Đỉnh Cao</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cyber: {
+                            dark: '#0a0d14',
+                            card: '#121824',
+                            border: '#1e293b',
+                            red: '#ff2a5f',
+                            redGlow: 'rgba(255, 42, 95, 0.5)',
+                            cyan: '#00f0ff',
+                            cyanGlow: 'rgba(0, 240, 255, 0.5)',
+                            purple: '#7928ca'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace']
+                    },
+                    animation: {
+                        'pulse-glow': 'pulseGlow 2s infinite alternate',
+                        'float': 'float 4s ease-in-out infinite',
+                        'scanline': 'scanline 8s linear infinite'
+                    },
+                    keyframes: {
+                        pulseGlow: {
+                            '0%': { boxShadow: '0 0 15px rgba(255, 42, 95, 0.4), 0 0 30px rgba(0, 240, 255, 0.2)' },
+                            '100%': { boxShadow: '0 0 25px rgba(255, 42, 95, 0.8), 0 0 50px rgba(0, 240, 255, 0.5)' }
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-12px)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #080b11;
+            color: #e2e8f0;
+            overflow-x: hidden;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0d14;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ff2a5f;
+        }
+
+        /* Neon Text Effect */
+        .neon-text-red {
+            text-shadow: 0 0 10px rgba(255, 42, 95, 0.7), 0 0 20px rgba(255, 42, 95, 0.5);
+        }
+        .neon-text-cyan {
+            text-shadow: 0 0 10px rgba(0, 240, 255, 0.7), 0 0 20px rgba(0, 240, 255, 0.5);
+        }
+
+        /* Cyberpunk Card Border Effect */
+        .cyber-border {
+            position: relative;
+            background: #121824;
+            border: 1px solid #1e293b;
+            transition: all 0.3s ease;
+        }
+        .cyber-border:hover {
+            border-color: #ff2a5f;
+            box-shadow: 0 0 20px rgba(255, 42, 95, 0.3);
+            transform: translateY(-4px);
+        }
+
+        .cyber-border-cyan:hover {
+            border-color: #00f0ff;
+            box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+        }
+
+        /* Glassmorphic Background */
+        .glass-panel {
+            background: rgba(18, 24, 36, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* Diagonal Accent Cut */
+        .cyber-corner {
+            clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px));
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-cyber-red selection:text-white">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 glass-panel border-b border-slate-800/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3 cursor-pointer" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyber-red to-cyber-purple flex items-center justify-center text-white font-black text-xl shadow-lg shadow-cyber-red/30 border border-cyber-red/50">
+                        <i class="fa-solid fa-crosshairs"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl sm:text-2xl font-black tracking-wider uppercase bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-cyber-cyan">
+                            FF<span class="text-cyber-red neon-text-red">HEADSHOT</span>
+                        </span>
+                        <span class="hidden sm:block text-[10px] text-cyber-cyan tracking-widest font-mono font-bold uppercase -mt-1">
+                            VIP REGEDIT VIP 100%
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                    <a href="#products" class="text-slate-300 hover:text-cyber-cyan transition-colors duration-200 flex items-center gap-2">
+                        <i class="fa-solid fa-fire text-cyber-red"></i> Sản Phẩm
+                    </a>
+                    <a href="#compare" class="text-slate-300 hover:text-cyber-cyan transition-colors duration-200 flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-cyber-cyan"></i> Bảng Giá & So Sánh
+                    </a>
+                    <a href="#features" class="text-slate-300 hover:text-cyber-cyan transition-colors duration-200 flex items-center gap-2">
+                        <i class="fa-solid fa-shield-halved text-emerald-400"></i> Cam Kết
+                    </a>
+                    <a href="#testimonials" class="text-slate-300 hover:text-cyber-cyan transition-colors duration-200 flex items-center gap-2">
+                        <i class="fa-solid fa-star text-amber-400"></i> Review
+                    </a>
+                    <a href="#faq" class="text-slate-300 hover:text-cyber-cyan transition-colors duration-200 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-question text-purple-400"></i> FAQ
+                    </a>
+                </div>
+
+                <!-- CTA Navigation Button -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#products" class="relative group overflow-hidden rounded-lg p-px font-semibold text-xs tracking-wider uppercase">
+                        <span class="absolute inset-0 bg-gradient-to-r from-cyber-red via-cyber-purple to-cyber-cyan group-hover:opacity-100 transition-opacity duration-300"></span>
+                        <span class="relative block px-5 py-2.5 rounded-[7px] bg-cyber-dark hover:bg-opacity-80 transition-all duration-200 text-white flex items-center gap-2">
+                            <i class="fa-solid fa-bolt text-cyber-cyan"></i> Tải Regedit VIP
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden glass-panel border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
+            <a href="#products" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-cyber-cyan hover:bg-slate-800/50">
+                <i class="fa-solid fa-fire text-cyber-red mr-2"></i> Sản Phẩm Hot
+            </a>
+            <a href="#compare" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-cyber-cyan hover:bg-slate-800/50">
+                <i class="fa-solid fa-layer-group text-cyber-cyan mr-2"></i> Bảng So Sánh Gói
+            </a>
+            <a href="#features" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-cyber-cyan hover:bg-slate-800/50">
+                <i class="fa-solid fa-shield-halved text-emerald-400 mr-2"></i> Lý Do Chọn Chúng Tôi
+            </a>
+            <a href="#testimonials" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-cyber-cyan hover:bg-slate-800/50">
+                <i class="fa-solid fa-star text-amber-400 mr-2"></i> Đánh Giá Khách Hàng
+            </a>
+            <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-cyber-cyan hover:bg-slate-800/50">
+                <i class="fa-solid fa-circle-question text-purple-400 mr-2"></i> Giải Đáp Thắc Mắc
+            </a>
+            <div class="pt-2">
+                <a href="#products" class="w-full text-center block px-4 py-3 rounded-lg bg-gradient-to-r from-cyber-red to-cyber-purple font-bold text-sm uppercase text-white shadow-lg shadow-cyber-red/40">
+                    <i class="fa-solid fa-cart-shopping mr-2"></i> Mua Ngay Bây Giờ
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
+        <!-- Ambient Glowing Orbs Background -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyber-red/15 rounded-full blur-[140px] pointer-events-none"></div>
+        <div class="absolute top-1/3 right-10 w-[400px] h-[400px] bg-cyber-cyan/15 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute top-20 left-10 w-[300px] h-[300px] bg-cyber-purple/20 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <!-- Grid Pattern Overlay -->
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b15_1px,transparent_1px),linear-gradient(to_bottom,#1e293b15_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    <!-- Badge Notification -->
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-cyber-red/40 text-xs font-mono font-semibold text-cyber-red shadow-lg shadow-cyber-red/20 animate-pulse">
+                        <span class="w-2 h-2 rounded-full bg-cyber-red animate-ping"></span>
+                        <i class="fa-solid fa-bolt"></i> REGEDIT ACCURACY 99.8% - UPDATE OB44 VIP
+                    </div>
+
+                    <!-- Title -->
+                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-none uppercase">
+                        Hỗ Trợ Kéo Tâm <br class="hidden sm:inline"/>
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyber-red via-red-400 to-amber-300 neon-text-red">
+                            FREE FIRE VIP
+                        </span> <br/>
+                        <span class="text-3xl sm:text-5xl font-extrabold text-slate-100 flex items-center justify-center lg:justify-start gap-3 mt-2">
+                            <i class="fa-solid fa-crosshairs text-cyber-cyan animate-spin" style="animation-duration: 12s"></i> Chuẩn 100% Headshot
+                        </span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Tối ưu nhạy tâm tối đa, khóa mục tiêu cực êm, không rung giật. Sử dụng công nghệ <span class="text-cyber-cyan font-bold">Anti-Ban Clean Safe 100%</span>. Tương thích hoàn hảo cho iOS, Android & PC Giả Lập.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#products" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-cyber-red via-rose-600 to-cyber-purple font-black text-white text-base tracking-wider uppercase shadow-xl shadow-cyber-red/40 hover:shadow-cyber-red/60 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-cart-shopping text-xl"></i> Xem Bảng Giá & Mua Ngay
+                        </a>
+                        <a href="#demo-video" class="w-full sm:w-auto px-8 py-4 rounded-xl glass-panel border border-slate-700 hover:border-cyber-cyan font-bold text-slate-200 hover:text-cyber-cyan text-base tracking-wider uppercase transition-all duration-200 flex items-center justify-center gap-3 group">
+                            <i class="fa-solid fa-play text-cyber-cyan group-hover:scale-125 transition-transform duration-200"></i> Xem Clip Demo Kéo Tâm
+                        </a>
+                    </div>
+
+                    <!-- Highlight Features Mini Badges -->
+                    <div class="grid grid-cols-3 gap-3 pt-6 border-t border-slate-800/80 max-w-lg mx-auto lg:mx-0 text-left">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-shield-check text-emerald-400 text-lg"></i>
+                            <span class="text-xs font-semibold text-slate-300">Chống Khóa 100%</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-wand-magic-sparkles text-cyber-cyan text-lg"></i>
+                            <span class="text-xs font-semibold text-slate-300">Cài Nhanh 2 Phút</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-headset text-amber-400 text-lg"></i>
+                            <span class="text-xs font-semibold text-slate-300">Hỗ Trợ 24/7</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Graphics/Visual -->
+                <div class="lg:col-span-5 relative flex justify-center">
+                    <div class="relative w-full max-w-md animate-float">
+                        <!-- Card Mockup Effect -->
+                        <div class="cyber-border rounded-2xl p-6 bg-cyber-card/90 shadow-2xl relative overflow-hidden">
+                            <!-- Top Bar Glow -->
+                            <div class="h-1.5 w-full bg-gradient-to-r from-cyber-cyan via-cyber-purple to-cyber-red rounded-full mb-6"></div>
+
+                            <!-- Mockup Video Preview Placeholder -->
+                            <div class="relative rounded-xl overflow-hidden aspect-video bg-slate-900 border border-slate-800 flex items-center justify-center group cursor-pointer" onclick="openDemoModal()">
+                                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80" alt="Free Fire Gameplay" class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500">
+                                <div class="absolute inset-0 bg-gradient-to-t from-cyber-dark via-transparent to-transparent"></div>
+                                
+                                <!-- Play Button Pulse -->
+                                <div class="absolute w-16 h-16 rounded-full bg-cyber-red/90 text-white flex items-center justify-center text-2xl shadow-lg shadow-cyber-red/50 group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fa-solid fa-play ml-1"></i>
+                                </div>
+                                
+                                <span class="absolute bottom-3 left-3 bg-black/70 px-2.5 py-1 rounded text-[11px] font-mono text-cyber-cyan font-semibold border border-cyber-cyan/30">
+                                    <i class="fa-solid fa-circle text-red-500 animate-pulse text-[8px] mr-1"></i> LIVE DEMO
+                                </span>
+                            </div>
+
+                            <!-- Live Stats Cards -->
+                            <div class="grid grid-cols-2 gap-3 mt-4">
+                                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 text-center">
+                                    <span class="text-xs text-slate-400 uppercase font-mono block">Tỉ lệ Headshot</span>
+                                    <span class="text-xl font-black text-cyber-red neon-text-red">99.8%</span>
+                                </div>
+                                <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 text-center">
+                                    <span class="text-xs text-slate-400 uppercase font-mono block">Khách Hàng Hài Lòng</span>
+                                    <span class="text-xl font-black text-cyber-cyan neon-text-cyan">15,400+</span>
+                                </div>
+                            </div>
+
+                            <!-- Floating Badge -->
+                            <div class="absolute -bottom-4 -right-4 glass-panel border border-cyber-cyan/50 px-4 py-2 rounded-xl text-xs font-mono font-bold text-cyber-cyan flex items-center gap-2 shadow-xl">
+                                <i class="fa-solid fa-microchip text-sm text-cyber-cyan"></i> REGEDIT OB44 AUTO LOCK
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight uppercase">
+                    Danh Sách <span class="text-cyber-red neon-text-red">Sản Phẩm Regedit VIP</span>
+                </h2>
+                <p class="text-slate-400 mt-3 text-sm sm:text-base">
+                    Lựa chọn gói tương thích với thiết bị của bạn. Hỗ trợ đầy đủ cho Mobile & PC Giả lập với cài đặt siêu tốc.
+                </p>
+                <div class="w-24 h-1 bg-gradient-to-r from-cyber-red to-cyber-cyan mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Product 1: Android Regedit -->
+                <div class="cyber-border rounded-2xl p-6 flex flex-col justify-between relative group">
+                    <div class="absolute -top-3 right-4 bg-emerald-500 text-black text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-lg">
+                        HOT SELLER
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500/20 to-emerald-700/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Regedit Android Auto Lock</h3>
+                        <p class="text-xs text-slate-400 mb-4">Dành cho Samsung, Xiaomi, Oppo, Realme...</p>
+
+                        <!-- Headshot Rate Indicator -->
+                        <div class="mb-4 bg-slate-900/90 p-2.5 rounded-xl border border-slate-800">
+                            <div class="flex justify-between text-xs font-semibold mb-1">
+                                <span class="text-slate-400">Tỉ lệ Headshot:</span>
+                                <span class="text-emerald-400 font-bold">95% - 98%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-emerald-400 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Feature List -->
+                        <ul class="space-y-2 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Hỗ trợ Android 9 - Android 14
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Khóa tâm vùng ngực -> Đầu
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i> Chống giật tâm 80%
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-shield text-emerald-400"></i> Safe 100% - Không Lock Nick
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-2xl font-black text-white">99.000đ</span>
+                            <span class="text-xs text-slate-500 line-through">200.000đ</span>
+                            <span class="text-[10px] bg-cyber-red/20 text-cyber-red font-bold px-1.5 py-0.5 rounded border border-cyber-red/30">-50%</span>
+                        </div>
+                        <button onclick="openPaymentModal('Regedit Android Auto Lock', '99.000đ')" class="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 font-bold text-xs uppercase tracking-wider text-black hover:opacity-90 transition-opacity shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i> Mua Ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2: iOS Regedit (Sensi + File) -->
+                <div class="cyber-border cyber-border-cyan rounded-2xl p-6 flex flex-col justify-between relative group">
+                    <div class="absolute -top-3 right-4 bg-cyber-cyan text-black text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-lg">
+                        KHUYÊN DÙNG
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyber-cyan/20 to-blue-700/20 text-cyber-cyan border border-cyber-cyan/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-brands fa-apple"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Regedit iOS Supreme VIP</h3>
+                        <p class="text-xs text-slate-400 mb-4">Dành cho iPhone & iPad mọi đời iOS</p>
+
+                        <!-- Headshot Rate Indicator -->
+                        <div class="mb-4 bg-slate-900/90 p-2.5 rounded-xl border border-slate-800">
+                            <div class="flex justify-between text-xs font-semibold mb-1">
+                                <span class="text-slate-400">Tỉ lệ Headshot:</span>
+                                <span class="text-cyber-cyan font-bold">98% - 99%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-cyber-cyan rounded-full" style="width: 98%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Feature List -->
+                        <ul class="space-y-2 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-cyber-cyan"></i> Tệp Sensi Cấu Hình iOS Cao Cấp
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-cyber-cyan"></i> Nhạy tâm mượt, kéo nhẹ dính đầu
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-cyber-cyan"></i> Không cần Jailbreak thiết bị
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-shield text-cyber-cyan"></i> An toàn tuyệt đối 100%
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-2xl font-black text-white">149.000đ</span>
+                            <span class="text-xs text-slate-500 line-through">300.000đ</span>
+                            <span class="text-[10px] bg-cyber-cyan/20 text-cyber-cyan font-bold px-1.5 py-0.5 rounded border border-cyber-cyan/30">-50%</span>
+                        </div>
+                        <button onclick="openPaymentModal('Regedit iOS Supreme VIP', '149.000đ')" class="w-full py-3 rounded-xl bg-gradient-to-r from-cyber-cyan to-blue-600 font-bold text-xs uppercase tracking-wider text-black hover:opacity-90 transition-opacity shadow-lg shadow-cyber-cyan/20 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i> Mua Ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 3: PC Emulator Macro VIP -->
+                <div class="cyber-border rounded-2xl p-6 flex flex-col justify-between relative group border-cyber-red/50">
+                    <div class="absolute -top-3 right-4 bg-cyber-red text-white text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-lg shadow-cyber-red/40 animate-pulse">
+                        BEST FOR PC
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyber-red/20 to-rose-700/20 text-cyber-red border border-cyber-red/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Macro PC Giả Lập Ultimate</h3>
+                        <p class="text-xs text-slate-400 mb-4">Bluestacks 4, 5 & MSI App Player</p>
+
+                        <!-- Headshot Rate Indicator -->
+                        <div class="mb-4 bg-slate-900/90 p-2.5 rounded-xl border border-slate-800">
+                            <div class="flex justify-between text-xs font-semibold mb-1">
+                                <span class="text-slate-400">Tỉ lệ Headshot:</span>
+                                <span class="text-cyber-red font-bold">99.9%</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-cyber-red rounded-full" style="width: 99.9%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Feature List -->
+                        <ul class="space-y-2 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-cyber-red"></i> Auto Lock Headshot 100%
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-cyber-red"></i> Fix lỗi khựng keo, delay chuột
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-cyber-red"></i> Tích hợp Bảng Điều Khiển VIP
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-shield text-cyber-red"></i> Anti-Ban Bypass 100%
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-2xl font-black text-white">199.000đ</span>
+                            <span class="text-xs text-slate-500 line-through">450.000đ</span>
+                            <span class="text-[10px] bg-cyber-red/20 text-cyber-red font-bold px-1.5 py-0.5 rounded border border-cyber-red/30">-55%</span>
+                        </div>
+                        <button onclick="openPaymentModal('Macro PC Giả Lập Ultimate', '199.000đ')" class="w-full py-3 rounded-xl bg-gradient-to-r from-cyber-red via-rose-600 to-cyber-purple font-bold text-xs uppercase tracking-wider text-white hover:opacity-90 transition-opacity shadow-lg shadow-cyber-red/30 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i> Mua Ngay
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 4: Full Pack Combo Unlimited -->
+                <div class="cyber-border rounded-2xl p-6 flex flex-col justify-between relative group bg-gradient-to-b from-cyber-purple/10 to-transparent">
+                    <div class="absolute -top-3 right-4 bg-gradient-to-r from-amber-400 to-amber-600 text-black text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-lg">
+                        COMBO ĐỘC QUYỀN
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400/20 to-amber-600/20 text-amber-400 border border-amber-400/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-1">Combo ALL-IN-ONE VVIP</h3>
+                        <p class="text-xs text-slate-400 mb-4">Tất cả File Regedit Android, iOS & PC</p>
+
+                        <!-- Headshot Rate Indicator -->
+                        <div class="mb-4 bg-slate-900/90 p-2.5 rounded-xl border border-slate-800">
+                            <div class="flex justify-between text-xs font-semibold mb-1">
+                                <span class="text-slate-400">Tỉ lệ Headshot:</span>
+                                <span class="text-amber-400 font-bold">100% PERFECT</span>
+                            </div>
+                            <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-amber-400 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Feature List -->
+                        <ul class="space-y-2 text-xs text-slate-300 mb-6">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-amber-400"></i> Trọn bộ File VIP Android + iOS + PC
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-amber-400"></i> Cập nhật File Mới Miễn Phí Trọn Đời
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-amber-400"></i> Support Ultraviewer cài đặt 1:1
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-shield text-amber-400"></i> Bảo Hành Vĩnh Viễn
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-2xl font-black text-white">299.000đ</span>
+                            <span class="text-xs text-slate-500 line-through">700.000đ</span>
+                            <span class="text-[10px] bg-amber-400/20 text-amber-400 font-bold px-1.5 py-0.5 rounded border border-amber-400/30">-60%</span>
+                        </div>
+                        <button onclick="openPaymentModal('Combo ALL-IN-ONE VVIP', '299.000đ')" class="w-full py-3 rounded-xl bg-gradient-to-r from-amber-400 to-amber-600 font-bold text-xs uppercase tracking-wider text-black hover:opacity-90 transition-opacity shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-cart-shopping"></i> Mua Ngay
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE COMPARISON TABLE SECTION -->
+    <section id="compare" class="py-20 relative bg-cyber-dark/60 border-y border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight uppercase">
+                    So Sánh Tính Năng <span class="text-cyber-cyan neon-text-cyan">Thường VS VIP PRO</span>
+                </h2>
+                <p class="text-slate-400 mt-3 text-sm">
+                    Tại sao bản VIP Pro của chúng tôi luôn vượt trội hơn các file Regedit trôi nổi trên mạng.
+                </p>
+            </div>
+
+            <!-- Table Wrapper -->
+            <div class="overflow-x-auto rounded-2xl border border-slate-800 glass-panel shadow-2xl">
+                <table class="w-full text-left text-sm">
+                    <thead class="bg-slate-900/90 text-xs uppercase font-mono border-b border-slate-800">
+                        <tr>
+                            <th scope="col" class="py-4 px-6 text-slate-300">Tính Năng Hỗ Trợ</th>
+                            <th scope="col" class="py-4 px-6 text-center text-slate-400">File Miễn Phí / Thường</th>
+                            <th scope="col" class="py-4 px-6 text-center text-cyber-red font-bold text-base bg-cyber-red/10 border-x border-cyber-red/20">
+                                <i class="fa-solid fa-crown text-amber-400 mr-1"></i> GÓI VIP PRO (FF HEADSHOT)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/60 font-medium">
+                        <tr class="hover:bg-slate-900/40">
+                            <td class="py-4 px-6 text-slate-200">Độ nhạy & Khóa tâm Headshot</td>
+                            <td class="py-4 px-6 text-center text-slate-400">Trung bình (50% - 60%)</td>
+                            <td class="py-4 px-6 text-center text-cyber-cyan font-bold bg-cyber-red/5 border-x border-cyber-red/10">Cực Cao (98% - 100%)</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/40">
+                            <td class="py-4 px-6 text-slate-200">Độ rung tâm khi sấy liên tục</td>
+                            <td class="py-4 px-6 text-center text-red-400"><i class="fa-solid fa-xmark"></i> Vẫn rung giật nhiều</td>
+                            <td class="py-4 px-6 text-center text-emerald-400 font-bold bg-cyber-red/5 border-x border-cyber-red/10"><i class="fa-solid fa-check"></i> Triệt tiêu rung tâm 95%</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/40">
+                            <td class="py-4 px-6 text-slate-200">Tính năng Chống Khóa Nick (Anti-Ban)</td>
+                            <td class="py-4 px-6 text-center text-red-400"><i class="fa-solid fa-triangle-exclamation"></i> Dễ bị phát hiện & Ban</td>
+                            <td class="py-4 px-6 text-center text-emerald-400 font-bold bg-cyber-red/5 border-x border-cyber-red/10"><i class="fa-solid fa-shield-check"></i> Safe 100% Anti-Ban Bypass</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/40">
+                            <td class="py-4 px-6 text-slate-200">Cập nhật khi Free Fire update OB mới</td>
+                            <td class="py-4 px-6 text-center text-slate-400">Bị lỗi, không dùng được</td>
+                            <td class="py-4 px-6 text-center text-emerald-400 font-bold bg-cyber-red/5 border-x border-cyber-red/10"><i class="fa-solid fa-rotate text-cyber-cyan"></i> Update Miễn Phí Tự Động</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/40">
+                            <td class="py-4 px-6 text-slate-200">Hỗ trợ Cài đặt & Tối ưu FPS</td>
+                            <td class="py-4 px-6 text-center text-slate-400">Tự mò, không ai hỗ trợ</td>
+                            <td class="py-4 px-6 text-center text-emerald-400 font-bold bg-cyber-red/5 border-x border-cyber-red/10"><i class="fa-solid fa-headset text-amber-400"></i> Cài 1:1 qua Ultraview / Zalo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section id="features" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight uppercase">
+                    Tại Sao Nên Chọn <span class="text-cyber-red neon-text-red">FF HEADSHOT VIP?</span>
+                </h2>
+                <p class="text-slate-400 mt-3 text-sm">
+                    Chúng tôi mang lại giải pháp hỗ trợ kéo tâm uy tín hàng đầu cho cộng đồng game thủ Free Fire Việt Nam.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature Card 1 -->
+                <div class="cyber-border rounded-2xl p-6 text-center group">
+                    <div class="w-16 h-16 rounded-2xl bg-cyber-red/10 text-cyber-red border border-cyber-red/30 flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Tối Ưu Siêu Mượt</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Tăng độ nhạy kéo tâm, giảm giật lag FPS tối đa cho cả máy cấu hình yếu.
+                    </p>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="cyber-border rounded-2xl p-6 text-center group">
+                    <div class="w-16 h-16 rounded-2xl bg-cyber-cyan/10 text-cyber-cyan border border-cyber-cyan/30 flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Anti-Ban Safe 100%</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Mã hóa tệp chuẩn cấu hình game gốc, cam kết không đụng chạm file hệ thống gây khóa nick.
+                    </p>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="cyber-border rounded-2xl p-6 text-center group">
+                    <div class="w-16 h-16 rounded-2xl bg-amber-400/10 text-amber-400 border border-amber-400/30 flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Hỗ Trợ Cài Đặt 1:1</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Đội ngũ Admin hướng dẫn chi tiết qua Zalo/Telegram hoặc Ultraview trực tiếp tới khi kéo dính tâm.
+                    </p>
+                </div>
+
+                <!-- Feature Card 4 -->
+                <div class="cyber-border rounded-2xl p-6 text-center group">
+                    <div class="w-16 h-16 rounded-2xl bg-purple-500/10 text-purple-400 border border-purple-500/30 flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-infinity"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Bảo Hành Vĩnh Viễn</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Mua một lần dùng trọn đời. Cập nhật miễn phí tệp regedit mới mỗi khi Free Fire update mùa mới.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS & DEMO VIDEO SECTION -->
+    <section id="testimonials" class="py-20 bg-cyber-dark/60 border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight uppercase">
+                    Đánh Giá Từ <span class="text-amber-400">Game Thủ & Clip Test</span>
+                </h2>
+                <p class="text-slate-400 mt-3 text-sm">
+                    Hơn 15,000+ anh em game thủ đã tin tưởng và trải nghiệm kéo tâm siêu mượt.
+                </p>
+            </div>
+
+            <!-- Video Clip Demo Box -->
+            <div id="demo-video" class="mb-16 max-w-4xl mx-auto cyber-border rounded-2xl p-4 sm:p-6 bg-slate-900/90 shadow-2xl">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-red-500"></span>
+                        <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+                        <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                        <span class="text-xs font-mono text-slate-400 ml-2">DEMO_GAMEPLAY_HEADSHOT_VIP.MP4</span>
+                    </div>
+                    <span class="text-xs font-mono text-cyber-cyan font-bold uppercase"><i class="fa-solid fa-check-circle mr-1"></i> VERIFIED ACCURACY</span>
+                </div>
+                
+                <!-- Video Container -->
+                <div class="relative aspect-video rounded-xl overflow-hidden bg-black flex items-center justify-center border border-slate-800">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0" title="FF Headshot Regedit Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Customer Testimonial Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-xs italic leading-relaxed mb-4">
+                        "Cài file iOS xong vào game vuốt nhẹ phát nào dính đỏ đầu phát đó. Test leo Rank Tử Chiến Cực Kỳ mượt, không bị khựng tâm chút nào luôn Admin ơi!"
+                    </p>
+                    <div class="flex items-center gap-3 border-t border-slate-800/80 pt-3">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-r from-cyber-red to-purple-600 flex items-center justify-center font-bold text-xs">
+                            NV
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Nguyễn Văn Hiếu</h4>
+                            <span class="text-[10px] text-slate-400">Game thủ iOS (iPhone 13 Pro)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-xs italic leading-relaxed mb-4">
+                        "Bản Macro PC Bluestacks 5 cực chất. Kéo shotgun không bị vuốt trượt qua đầu. Admin hỗ trợ qua Ultraview cài tận răng rất nhiệt tình 10/10 điểm!"
+                    </p>
+                    <div class="flex items-center gap-3 border-t border-slate-800/80 pt-3">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-r from-cyber-cyan to-blue-600 flex items-center justify-center font-bold text-xs text-black">
+                            TM
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Trần Minh Quân</h4>
+                            <span class="text-[10px] text-slate-400">Streamer Free Fire PC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-800 relative">
+                    <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-xs italic leading-relaxed mb-4">
+                        "Lúc đầu sợ khóa nick nhưng mua về chơi hơn 3 tháng nay acc chính vẫn bình thường. Bật kéo full đỏ 100% ai cũng tưởng hack haha."
+                    </p>
+                    <div class="flex items-center gap-3 border-t border-slate-800/80 pt-3">
+                        <div class="w-9 h-9 rounded-full bg-gradient-to-r from-emerald-400 to-teal-600 flex items-center justify-center font-bold text-xs text-black">
+                            LH
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Lê Hoàng Nam</h4>
+                            <span class="text-[10px] text-slate-400">Game thủ Android (Xiaomi Poco)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight uppercase">
+                    Câu Hỏi <span class="text-cyber-cyan neon-text-cyan">Thường Gặp (FAQ)</span>
+                </h2>
+                <p class="text-slate-400 mt-3 text-sm">
+                    Giải đáp mọi thắc mắc của bạn trước khi quyết định mua hàng.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="cyber-border rounded-xl p-5 cursor-pointer" onclick="toggleFaq(1)">
+                    <div class="flex items-center justify-between font-bold text-sm sm:text-base text-white">
+                        <span class="flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-cyber-red"></i> Sử dụng File Regedit có bị khóa acc Free Fire không?
+                        </span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </div>
+                    <div id="faq-ans-1" class="hidden mt-3 pt-3 border-t border-slate-800 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Hoàn toàn KHÔNG! File Regedit của chúng tôi chỉ can thiệp tối ưu hóa thông số nhạy cảm ứng (Sensitivity, DPI & Mouse Acceleration) trên thiết bị, KHÔNG can thiệp chỉnh sửa dữ liệu file gốc của game Garena. Vì vậy an toàn 100% cho tài khoản chính.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="cyber-border rounded-xl p-5 cursor-pointer" onclick="toggleFaq(2)">
+                    <div class="flex items-center justify-between font-bold text-sm sm:text-base text-white">
+                        <span class="flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-cyber-cyan"></i> Sau khi thanh toán tôi sẽ nhận file như thế nào?
+                        </span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </div>
+                    <div id="faq-ans-2" class="hidden mt-3 pt-3 border-t border-slate-800 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Ngay sau khi bạn thực hiện chuyển khoản thành công theo cú pháp, hệ thống sẽ tự động gửi Link Tải File VIP + Video hướng dẫn cài đặt từng bước qua Zalo hoặc Telegram của bạn trong vòng 30 giây!
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="cyber-border rounded-xl p-5 cursor-pointer" onclick="toggleFaq(3)">
+                    <div class="flex items-center justify-between font-bold text-sm sm:text-base text-white">
+                        <span class="flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-amber-400"></i> Tôi không biết cài đặt thì có ai hỗ trợ không?
+                        </span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </div>
+                    <div id="faq-ans-3" class="hidden mt-3 pt-3 border-t border-slate-800 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Có nhé! Đội ngũ Kỹ Thuật Admin hỗ trợ 1:1 qua Zalo Video Gọi trực tiếp hoặc Ultraviewer (đối với máy tính) để cài đặt giúp bạn từ A-Z cho đến khi chơi mượt mới thôi.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="cyber-border rounded-xl p-5 cursor-pointer" onclick="toggleFaq(4)">
+                    <div class="flex items-center justify-between font-bold text-sm sm:text-base text-white">
+                        <span class="flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-emerald-400"></i> Khi Free Fire cập nhật OB mới thì file có còn dùng được không?
+                        </span>
+                        <i id="faq-icon-4" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </div>
+                    <div id="faq-ans-4" class="hidden mt-3 pt-3 border-t border-slate-800 text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Mỗi khi Garena cập nhật phiên bản game mới, Admin sẽ tối ưu lại file phù hợp và gửi cập nhật MIỄN PHÍ vĩnh viễn cho tất cả khách hàng đã từng mua tại đây.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 border-t border-slate-800 pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+                <!-- Col 1: Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-cyber-red flex items-center justify-center text-white font-black text-lg">
+                            <i class="fa-solid fa-crosshairs"></i>
+                        </div>
+                        <span class="text-xl font-black uppercase text-white">FF<span class="text-cyber-red">HEADSHOT</span></span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Website cung cấp File Regedit, Macro & Sensi hỗ trợ kéo tâm Free Fire chuyên nghiệp, uy tín hàng đầu Việt Nam. Tối ưu cực mượt, an toàn 100%.
+                    </p>
+                    <div class="flex items-center space-x-3 pt-2">
+                        <a href="https://zalo.me" target="_blank" class="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-cyber-cyan hover:bg-cyber-cyan hover:text-black transition-colors">
+                            <i class="fa-solid fa-comment"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-cyber-red hover:bg-cyber-red hover:text-white transition-colors">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://t.me" target="_blank" class="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition-colors">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-cyber-red pl-3">Sản Phẩm</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#products" class="hover:text-cyber-cyan transition-colors">Regedit Android Auto Lock</a></li>
+                        <li><a href="#products" class="hover:text-cyber-cyan transition-colors">Regedit iOS Supreme VIP</a></li>
+                        <li><a href="#products" class="hover:text-cyber-cyan transition-colors">Macro PC Bluestacks 5</a></li>
+                        <li><a href="#products" class="hover:text-cyber-cyan transition-colors">Combo ALL-IN-ONE VVIP</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Support Info -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-cyber-cyan pl-3">Hỗ Trợ Khách Hàng</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#faq" class="hover:text-cyber-cyan transition-colors">Hướng dẫn cài đặt qua Ultraview</a></li>
+                        <li><a href="#faq" class="hover:text-cyber-cyan transition-colors">Chính sách bảo hành vĩnh viễn</a></li>
+                        <li><a href="#faq" class="hover:text-cyber-cyan transition-colors">Cam kết An toàn Anti-Ban</a></li>
+                        <li><a href="#faq" class="hover:text-cyber-cyan transition-colors">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact Admin -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-amber-400 pl-3">Liên Hệ Admin VIP</h4>
+                    <div class="space-y-3 text-xs text-slate-300">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-cyber-cyan"></i>
+                            <span>Hotline/Zalo: <strong class="text-white">0987.654.321</strong></span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-brands fa-telegram text-blue-400"></i>
+                            <span>Telegram: <strong class="text-white">@AdminRegeditFF</strong></span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-clock text-amber-400"></i>
+                            <span>Thời gian làm việc: <strong class="text-white">24/7 (Cả Lễ Tết)</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-900 pt-8 text-center">
+                <p class="text-xs text-slate-500">
+                    &copy; 2026 FFHEADSHOT VIP. All Rights Reserved. Designed for Pro Free Fire Gamers.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PAYMENT / DOWNLOAD MODAL POPUP -->
+    <div id="payment-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden transition-opacity duration-300">
+        <div class="cyber-border rounded-2xl max-w-lg w-full bg-cyber-card p-6 relative shadow-2xl animate-float" style="animation-duration: 6s;">
+            <!-- Close Button -->
+            <button onclick="closePaymentModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <!-- Modal Header -->
+            <div class="text-center mb-6">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-cyber-red/20 text-cyber-red border border-cyber-red/40 text-xl mb-2">
+                    <i class="fa-solid fa-qrcode"></i>
+                </div>
+                <h3 class="text-xl font-extrabold text-white uppercase">Thanh Toán Nhận File VIP</h3>
+                <p class="text-xs text-slate-400">Quét mã QR bên dưới để hoàn tất đơn hàng tự động</p>
+            </div>
+
+            <!-- Modal Body Details -->
+            <div class="space-y-4">
+                <!-- Product Selected Banner -->
+                <div class="bg-slate-900 p-3 rounded-xl border border-slate-800 flex justify-between items-center">
+                    <div>
+                        <span class="text-[10px] text-slate-400 font-mono block">SẢN PHẨM ĐÃ CHỌN:</span>
+                        <span id="modal-product-name" class="text-sm font-bold text-cyber-cyan">Regedit Android Auto Lock</span>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-[10px] text-slate-400 font-mono block">TỔNG TIỀN:</span>
+                        <span id="modal-product-price" class="text-base font-black text-cyber-red">99.000đ</span>
+                    </div>
+                </div>
+
+                <!-- QR Code Display Box -->
+                <div class="bg-white p-4 rounded-xl flex flex-col items-center justify-center max-w-[220px] mx-auto border-2 border-cyber-cyan shadow-lg shadow-cyber-cyan/20">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=FFHEADSHOT_REGEDIT_VIP_PAYMENT" alt="QR Code Thanh Toan" class="w-40 h-40">
+                    <span class="text-[10px] font-bold text-slate-800 mt-2 flex items-center gap-1">
+                        <i class="fa-solid fa-shield-check text-emerald-600"></i> TỰ ĐỘNG XÁC NHẬN 24/7
+                    </span>
+                </div>
+
+                <!-- Transfer Info -->
+                <div class="bg-slate-900 p-3.5 rounded-xl border border-slate-800 space-y-2 text-xs">
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-400">Ngân Hàng:</span>
+                        <span class="font-bold text-white">MB BANK (Quân Đội)</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-400">Số Tài Khoản:</span>
+                        <div class="flex items-center gap-2">
+                            <span class="font-mono font-bold text-cyber-cyan" id="stk-text">0987654321999</span>
+                            <button onclick="copyToClipboard('0987654321999')" class="text-[10px] bg-slate-800 px-2 py-0.5 rounded text-slate-300 hover:text-white">Coppy</button>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-slate-400">Chủ Tài Khoản:</span>
+                        <span class="font-bold text-white uppercase">NGUYEN VAN ADMIN</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-cyber-red/10 p-2 rounded border border-cyber-red/30">
+                        <span class="text-slate-300 font-semibold">Nội dung CK:</span>
+                        <div class="flex items-center gap-2">
+                            <span class="font-mono font-bold text-cyber-red" id="nd-text">FFVIP REGEDIT</span>
+                            <button onclick="copyToClipboard('FFVIP REGEDIT')" class="text-[10px] bg-cyber-red/30 px-2 py-0.5 rounded text-white">Copy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructions Alert -->
+                <div class="text-[11px] text-slate-400 bg-slate-900/50 p-2.5 rounded-lg border border-slate-800 text-center">
+                    <i class="fa-solid fa-circle-info text-cyber-cyan mr-1"></i> Sau khi CK thành công, vui lòng nhắn tin cho <strong class="text-cyber-cyan">Zalo Admin (0987.654.321)</strong> để kích hoạt nhận file lập tức!
+                </div>
+
+                <!-- Direct Action Buttons -->
+                <a href="https://zalo.me" target="_blank" class="w-full py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyber-cyan font-bold text-xs uppercase tracking-wider text-black text-center flex items-center justify-center gap-2 shadow-lg shadow-cyber-cyan/20">
+                    <i class="fa-solid fa-paper-plane"></i> Nhắn Zalo Admin Nhận File Ngay
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Toggle Mobile Menu
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // FAQ Toggle Logic
+        function toggleFaq(id) {
+            const ans = document.getElementById(`faq-ans-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+
+            if (ans.classList.contains('hidden')) {
+                ans.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                ans.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Modal Logic
+        const paymentModal = document.getElementById('payment-modal');
+        const modalProductName = document.getElementById('modal-product-name');
+        const modalProductPrice = document.getElementById('modal-product-price');
+
+        function openPaymentModal(name, price) {
+            modalProductName.innerText = name;
+            modalProductPrice.innerText = price;
+            paymentModal.classList.remove('hidden');
+        }
+
+        function closePaymentModal() {
+            paymentModal.classList.add('hidden');
+        }
+
+        // Demo Modal trigger (Simulated click for video scroll)
+        function openDemoModal() {
+            const videoSection = document.getElementById('demo-video');
+            videoSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Copy Text Helper Function (Compliant with fallback)
+        function copyToClipboard(text) {
+            const dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+
+            // Floating Toast Notification
+            showToast("Đã sao chép: " + text);
+        }
+
+        function showToast(message) {
+            const toast = document.createElement("div");
+            toast.className = "fixed bottom-5 right-5 z-50 glass-panel border border-cyber-cyan text-cyber-cyan px-4 py-2.5 rounded-xl text-xs font-bold shadow-xl flex items-center gap-2 animate-bounce";
+            toast.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i> ${message}`;
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            if (e.target === paymentModal) {
+                closePaymentModal();
+            }
+        });
+    </script>
+</body>
+</html>
